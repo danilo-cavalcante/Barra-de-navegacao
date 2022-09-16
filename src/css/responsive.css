@@ -1,0 +1,35 @@
+@media(max-width: 810px) {
+    /*fd => quebra em colunas*/
+    .header {
+        flex-direction: column;
+    }
+
+    .logo h1 {
+        font-size: 40px;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .menu li {
+        padding: 33px 0;
+    }
+
+    .menu li:last-child {
+        margin-top: 20px;
+    }
+
+    .menu li a {
+        font-size: 40px;
+        padding: 17px 40px;
+        margin-left: 0;
+    }
+
+    .menu li a.botao {
+        font-size: 18px;
+        padding: 15px 23px;
+    }
+
+}
